@@ -1,4 +1,4 @@
-/* heading Contron */
+/* heading Control */
 
 h1 {
     font-size: 70px;
@@ -42,7 +42,7 @@ body {
     display: block; /* Remove extra space below image */
 }
 
-/* Navigation Buttons (Previous/Next) */
+/*  Buttons (Previous/Next) */
 .prev, .next {
     cursor: pointer;
     position: absolute;
