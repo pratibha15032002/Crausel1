@@ -1,0 +1,40 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Carousel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <h1><b>Carousel/Slider</b></h1>
+    <div class="carousel-container">
+        <div class="carousel-slide">
+            <img src="imgfolder/song 2.jpg" alt="Slide 1">
+        </div>
+        <div class="carousel-slide">
+            <img src="/imgfolder/song 3.jpg" alt="Slide 2">
+        </div>
+        <div class="carousel-slide">
+            <img src="/imgfolder/song 4.jpg" alt="Slide 3">
+        </div>
+        <div class="carousel-slide">
+            <img src="/imgfolder/song5.jpg" alt="Slide 4">
+        </div>
+
+        <button class="prev" onclick="plusSlides(-1)">&#10094;</button>
+        <button class="next" onclick="plusSlides(1)">&#10095;</button>
+
+        <div class="carousel-dots">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+    </div>
+
+    <script src="style.js"></script>
+</body>
+</html>

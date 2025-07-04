@@ -1,0 +1,108 @@
+/* heading Contron */
+
+h1 {
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    color: black;
+}
+
+/* Basic Body Styles */
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ffffff;
+    margin: 0;
+}
+
+/* Carousel Container */
+.carousel-container {
+    position: relative;
+    max-width: 800px; /* Adjust as needed */
+    width: 100%;
+    margin: auto;
+    overflow: hidden; /* Hide overflowing slides */
+    box-shadow: 0px 0px 20px;
+    border-radius: 8px;
+}
+
+/* Individual Slides */
+.carousel-slide {
+    display: none; /* Hide all slides by default */
+    width: 100%;
+}
+
+.carousel-slide img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove extra space below image */
+}
+
+/* Navigation Buttons (Previous/Next) */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: rgba(0,0,0,0.5);
+    border: none;
+    outline: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* Dot Indicators */
+.carousel-dots {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
