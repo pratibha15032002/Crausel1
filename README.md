@@ -51,3 +51,6 @@ JavaScript: For handling slide transitions, automatic playback, event listeners,
 Video Support: 
 --------------------------------
 Allow embedding videos as carousel slides.
+--------------------------------------
+<img width="1845" height="792" alt="Screenshot 2025-07-16 183319" src="https://github.com/user-attachments/assets/8b487045-b591-487e-8eb1-4bbdf30f8d82" />
+
